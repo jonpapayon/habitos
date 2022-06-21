@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    -dark-blue: #354259;
+    -green: #C2DED1;
+    -yellow: #ECE5C7;
+    -dark-yellow: #CDC2AE;
+    
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+.call-to-action {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    background-color: #ECE5C7;
+}
