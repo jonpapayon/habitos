@@ -7,9 +7,9 @@
     <title>Habitox</title>
     <link rel="stylesheet" href="./global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <main>
@@ -20,7 +20,7 @@
                     <h2>Conviértete en la persona que quieres ser</h2>
                     <p>Habitox es un sistema basado en centrarse en aquellos hábitos que te permiten desarrollar tu éxito y evitar comportamientos no deseados que impiden nuestro desarrollo.
                     </p>
-                    <button class="call-to-action">call to action</button>
+                    <a href="#from-calltoaction"><button class="call-to-action">Únete al grupo</button></a>
                 </div>
                 <div class="right">
                     
@@ -42,7 +42,7 @@
     
                 <div class="right">
                 <h2>4 semanas de entrenamiento por el precio de 1. </h2>
-                <p>Habitox es un sistema basado en centrarse en aquellos hábitos que te permiten desarrollar tu éxito y evitar comportamientos no deseados que impiden nuestro desarrollo. <br> Duración de 4 semanas en modalidad presencial, el primer y más importante paso es que necesitas saber quién quieres ser, los hábitos son para convertirte en alguien diferente a la persona que eres hoy.</p>
+                <p>Duración de 4 semanas en modalidad presencial, el primer y más importante paso es que necesitas saber quién quieres ser, los hábitos son para convertirte en alguien diferente a la persona que eres hoy.</p>
                 
                 </div>
             </div>
@@ -55,7 +55,7 @@
                         <img src="./assets/business-3d-young-man-in-formalwear-sitting-on-the-floor-and-taking-photo.png" alt="young man in glasess">
                     </figure>
                     <h3>Cambia tus hábitos y tendrás éxito.</h3>
-                    <p> ¿Por qué la gente fracasa en sus objetivos? Hay muchas razones, pero la más importante es porque no han cambiado sus hábitos. Si ya has fracasado en la consecución de tus objetivos, no es culpa tuya: cambia tus hábitos y lo conseguirás. </p>
+                    <p> ¿Por qué la gente fracasa en sus objetivos? Hay muchas razones, pero la más importante es porque no han cambiado sus hábitos. <br> Si ya has fracasado en la consecución de tus objetivos, no es culpa tuya: cambia tus hábitos y lo conseguirás. </p>
                 </div>
                 <div class="center">
                     <figure>
@@ -74,12 +74,34 @@
             </div>
         </section>
 
-        <section>
-            <div class="">
-
+        <section class="from-cta" id="from-calltoaction">
+            <div class="form-cta-container">
+                <h2>Únete a nuestro grupo!</h2>
+                <h3>4 semanas de entrenamiento por el precio de 1</h3>
+                <form action="">
+                    <label for="nombre">
+                        <span>Nombre completo</span>
+                        <input type="text" name="nombre" id="nombre"
+                        autocomplete="name" required>
+                    </label>
+                    <label for="correo">
+                        <span>Email</span>
+                        <input type="email" name="correo" id="correo"
+                        autocomplete="email" required>
+                    </label>
+                    <label for="celular">
+                        <span>Celular</span>
+                        <input type="tel" name="celular" id="celular"
+                        autocomplete="tel" required>
+                    </label>
+                    <input class="call-to-action" type="submit">
+                </form>
             </div>
         </section>
 
+        <footer>
+            <p>made with love by jonpapayon</p>
+        </footer>
     </main>
 </body>
 </html>
