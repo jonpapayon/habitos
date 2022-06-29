@@ -133,27 +133,7 @@
     margin-bottom: 40px;
     color: #CDC2AE;
 }
-.form-cta-container form {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
 
-}
-.from-cta form label {
-    padding: 12px;
-    margin-bottom: 16px;
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    color: #354259;
-}
-form label input {
-    border: none;
-    border-bottom: 1px solid #354259;
-}
 
 footer {
     background-color: #354259;
